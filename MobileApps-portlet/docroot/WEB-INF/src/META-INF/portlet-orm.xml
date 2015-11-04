@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd">
+	<persistence-unit-metadata>
+		<xml-mapping-metadata-complete/>
+		<persistence-unit-defaults>
+			<access>PROPERTY</access>
+		</persistence-unit-defaults>
+	</persistence-unit-metadata>
+	<mapped-superclass class="com.vidyayug.mobile.model.impl.MobileUserDetailsModelImpl">
+		<attributes>
+			<id name="userId" />
+			<basic name="companyId" />
+			<basic name="email" />
+			<basic name="username" />
+			<basic name="password">
+				<column name="PASSWORD_" />
+			</basic>
+			<basic name="street" />
+			<basic name="city" />
+			<basic name="state">
+				<column name="STATE_" />
+			</basic>
+			<basic name="zipcode" />
+			<basic name="phoneNumber" />
+			<basic name="createDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<transient name="modelAttributes" />
+			<transient name="primaryKey" />
+			<transient name="primaryKeyObj" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<entity class="com.vidyayug.mobile.model.impl.MobileUserDetailsImpl" name="MobileUserDetails">
+		<table name="Mobile_userdetails" />
+		<attributes />
+	</entity>
+</entity-mappings>

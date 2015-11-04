@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+<service-builder package-path="com.vidyayug.mobile">
+	<author>MVIDYA</author>
+	<namespace>MobileVidyayug</namespace>
+
+	<entity name="MobileUserDetails" local-service="true" remote-service="true" table="Mobile_userdetails">
+
+		<!-- PK fields -->
+
+		<column name="userId" type="long" primary="true" />
+		
+		
+		<column name="companyId" type="long" />
+		<column name="email" type="String" />
+		<column name="username" type="String" />
+		<column name="password" type="long" />
+		<column name="street" type="String" />
+		<column name="city" type="String" />
+		<column name="state" type="String" />
+		<column name="zipcode" type="String" />
+		<column name="phoneNumber" type="String" />
+		
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+
+		
+	</entity>
+</service-builder>
