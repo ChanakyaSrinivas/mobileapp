@@ -1,4 +1,3 @@
-// including suds.js file
 Titanium.include('suds.js');
 var window = Titanium.UI.createWindow({
 	backgroundColor : '#ffffff',

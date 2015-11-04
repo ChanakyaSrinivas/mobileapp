@@ -3,6 +3,7 @@
 * Copyright: 2009 Kevin Whinnery (http://www.kevinwhinnery.com)
 * License: http://www.apache.org/licenses/LICENSE-2.0.html
 * Source: http://github.com/kwhinnery/Suds
+* updated suds.js
 */
 function SudsClient(_options) {
   function isBrowserEnvironment() {
