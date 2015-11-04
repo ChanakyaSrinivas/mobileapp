@@ -1,2 +1,2 @@
-# portlets
-This repositiory contains mobileapp
+# portlets and app
+This repositiory contains mobileapp-portlet and vidyayugapp
