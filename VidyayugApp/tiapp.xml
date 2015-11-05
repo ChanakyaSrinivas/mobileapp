@@ -10,7 +10,7 @@
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
-    <analytics>true</analytics>
+    <analytics>false</analytics>
     <guid>25fc8a11-621c-4691-bcfc-37229b1e46ec</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
@@ -56,5 +56,5 @@
         <target device="mobileweb">true</target>
         <target device="tizen">false</target>
     </deployment-targets>
-    <sdk-version>3.2.3.GA</sdk-version>
+    <sdk-version>3.2.4.GA</sdk-version>
 </ti:app>
