@@ -18,4 +18,4 @@
 
 <portlet:defineObjects />
 
-This is the <b>MobileApps</b> portlet.
+This is the <b>MobileApps-portlet for app </b> portlet.
