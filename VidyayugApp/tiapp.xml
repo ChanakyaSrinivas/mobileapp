@@ -7,8 +7,8 @@
     <url>http://VidyayugApp.com</url>
     <description>not specified</description>
     <copyright>2014 by srinivas</copyright>
-    <icon>appicon.png</icon>
-    <fullscreen>false</fullscreen>
+   // <icon>appicon.png</icon>
+    //<fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>false</analytics>
     <guid>25fc8a11-621c-4691-bcfc-37229b1e46ec</guid>
